@@ -1,0 +1,20 @@
+# generator info
+name: Spring Boot Rest Microservice
+group: atomist-project-templates
+artifact: spring-rest-service
+version: 2.0.0
+
+# backing git repo
+repo: git@github.com:atomist-project-templates/spring-rest-service.git
+branch: master
+sha: 332b7a618cdae590b6cf6eb3c09648208d2ecc3a
+
+# parameter values
+project_name: atomist-spring-neo4j
+artifact_id: atomist-spring-neo4j
+group_id: org.neo4j.example
+version: 0.0.1-SNAPSHOT
+description: Example Project demonstrating Atomist Editors for Spring Boot with Neo4j
+root_package: org.neo4j.example
+service_class_name: GraphService
+
