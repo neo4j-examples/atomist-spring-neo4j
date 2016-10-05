@@ -18,6 +18,10 @@ public class Person {
     public Person() {
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public String getName() {
         return name;
     }
@@ -40,4 +44,5 @@ public class Person {
     public void addFriend(Person friend) {
         friends.add(friend);
     }
+
 }
